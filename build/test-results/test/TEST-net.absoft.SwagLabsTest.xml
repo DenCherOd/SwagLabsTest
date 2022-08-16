@@ -1,89 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.absoft.SwagLabsTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-16T12:34:41" hostname="DESKTOP-IC15KUK" time="0.18">
+<testsuite name="net.absoft.SwagLabsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-16T13:11:29" hostname="DESKTOP-IC15KUK" time="1.251">
   <properties/>
-  <testcase name="blockedUserAuthorization" classname="net.absoft.SwagLabsTest" time="0.18">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(), 'Epic sadface: Sorry, this user has been locked out')]&quot;}&#10;  (Session info: chrome=104.0.5112.81)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'&#10;System info: host: 'DESKTOP-IC15KUK', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ac4a641cecc73d64cd0abfcf63996145, findElement {using=xpath, value=//h3[contains(text(), 'Epic sadface: Sorry, this user has been locked out')]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\DENCH~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:14930}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:14930/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ac4a641cecc73d64cd0abfcf63996145" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(), 'Epic sadface: Sorry, this user has been locked out')]&quot;}
-  (Session info: chrome=104.0.5112.81)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
-System info: host: 'DESKTOP-IC15KUK', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac4a641cecc73d64cd0abfcf63996145, findElement {using=xpath, value=//h3[contains(text(), 'Epic sadface: Sorry, this user has been locked out')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\DENCH~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:14930}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:14930/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ac4a641cecc73d64cd0abfcf63996145
-	at java.base@18.0.1.1/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base@18.0.1.1/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base@18.0.1.1/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-	at app//org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1251)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
-	at app//net.absoft.SwagLabsTest.blockedUserAuthorization(SwagLabsTest.java:39)
-	at java.base@18.0.1.1/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base@18.0.1.1/java.lang.reflect.Method.invoke(Method.java:577)
-	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at app//org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at app//org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at app//org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at app//org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at app//org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at app//org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at app//org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base@18.0.1.1/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at app//org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at app//org.testng.TestRunner.run(TestRunner.java:596)
-	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at app//org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at app//org.testng.TestNG.runSuites(TestNG.java:1063)
-	at app//org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at java.base@18.0.1.1/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base@18.0.1.1/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
-  </testcase>
+  <testcase name="authorizationWithWrongPassword" classname="net.absoft.SwagLabsTest" time="0.13"/>
+  <testcase name="blockedUserAuthorization" classname="net.absoft.SwagLabsTest" time="0.19"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 47268
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 11028
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-авг. 16, 2022 3:34:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг. 16, 2022 4:11:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-авг. 16, 2022 3:34:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+авг. 16, 2022 4:11:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
-авг. 16, 2022 3:34:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+авг. 16, 2022 4:11:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 104.
-авг. 16, 2022 3:34:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$2
+авг. 16, 2022 4:11:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$2
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-beta-4` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 13417
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+авг. 16, 2022 4:11:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+авг. 16, 2022 4:11:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
+авг. 16, 2022 4:11:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 104.
+авг. 16, 2022 4:11:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$2
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-beta-4` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
